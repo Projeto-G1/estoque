@@ -13,6 +13,8 @@
 @section('content')
     <p>Formulário</p>
 
+//teste
+
     {!! Form::open(['url' => 'categoria/' . $categoria->id, 'method' => 'put']) !!}
 
     {{ Form::label('nome', 'Nome:') }}<br>
