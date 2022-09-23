@@ -16,7 +16,7 @@ class ProdutoSeeder extends Seeder
     public function run()
     {
         Produto::create([
-            'nome'         => 'frango',
+            'nome'         => 'Tema',
             'quantidade'   => 15,
             'valor'        => 22,
             'categoria_id' => 1
@@ -24,14 +24,14 @@ class ProdutoSeeder extends Seeder
         ]);
 
         Produto::create([
-            'nome'         => 'Melancia',
+            'nome'         => 'Mickey Realeza',
             'quantidade'   => 5,
             'valor'        => 15,
             'categoria_id' => 2
         ]);
 
         Produto::create([
-            'nome'         => 'Abobrinha',
+            'nome'         => 'Frozen',
             'quantidade'   => 10,
             'valor'        => 7,
             'categoria_id' => 3
