@@ -23,6 +23,8 @@ class ProdutoSeeder extends Seeder
 
         ]);
 
+        //Teste
+        
         Produto::create([
             'nome'         => 'Mickey Realeza',
             'quantidade'   => 5,
